@@ -6,7 +6,7 @@ import com.solodkyi.java_labs.Lab5.exceptions.AccountNotFoundException;
 import com.solodkyi.java_labs.Lab5.exceptions.InsufficientFundsException;
 import com.solodkyi.java_labs.Lab5.exceptions.NegativeAmountException;
 
-public class Main {
+public class App {
     public static void main(String[] args) {
         Bank bank = new Bank();
 

@@ -1,5 +1,5 @@
 package com.solodkyi.java_labs.Lab6;
-public class Main {
+public class App {
     public static void main(String[] args) {
         Cinema cinema = new Cinema(3, 5, 10);
         cinema.initializeSeats();
