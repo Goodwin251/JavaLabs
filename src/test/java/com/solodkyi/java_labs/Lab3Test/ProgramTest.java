@@ -1,6 +1,7 @@
 package com.solodkyi.java_labs.Lab3Test;
 
 import org.junit.jupiter.api.Test;
+
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -13,30 +14,29 @@ public class ProgramTest {
 	@Test
     public void testAddProductToCart() {
         Cart cart = new Cart();
-        cart.addProduct(new Product("case", "PC", 300F));
+        cart.addProduct(new Product("basic_need_1", "Water", 5.6));
         assertEquals(1, cart.getProducts().size());
     }
 
     @Test
     public void testRemoveProductFromCart() {
         Cart cart = new Cart();
-        Product product = new Product("CPU", "Intel", 458F);
+        Product product = new Product("sweets_cupcake_1", "Cupcake", 124.4);
         cart.addProduct(product);
         cart.removeProduct(product);
         assertEquals(0, cart.getProducts().size());
     }
-
+    
     @Test
     public void testPlaceOrder() {
         Cart cart = mock(Cart.class);
-        Product product = new Product("CPU", "GPU", 458F);
-        cart.addProduct(product);
+        Product product = new Product("drink1", "CocaCola", 21.4);
         ArrayList<Product> p = new ArrayList<Product>();
         p.add(product);
         when(cart.getProducts()).thenReturn(p);
         Order order = new Order(1, cart);
         assertEquals(p, cart.getProducts());
-        assertEquals(1, order.getProducts().size());
+        assertEquals(p.size(), order.getProducts().size());
         assertEquals(OrderStatus.CREATED, order.getStatus());
     }
 

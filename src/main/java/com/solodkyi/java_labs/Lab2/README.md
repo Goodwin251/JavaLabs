@@ -1,4 +1,7 @@
-# JavaLab2
+﻿# [Лабораторна робота 2](README.md)
+
+Зробив Солодкий Ярослав ПД-32
+
 ## Вимоги до функціоналу
 Удосконалена система керування бібліотекою, має збергіати книги, DVD та зареєстрованих клієнтів. 
 
@@ -10,26 +13,38 @@
 1. Повертати предмет у бібліотеку.
 1. Показувати список доступних предметів.
 1. Показувати список взятих предметів та їхніх читачів
+
+## Формат прийняття лабораторної роботи: 
+
+1. Робота повинна мати план розробки програми та послідовність виконаних дій.
+1. Код розробленого додатку прикріпити у вигляді посилання на GitHub.
+1. GitHub повинен мати комміти як ви зробили на протязі розробки програми. Мова коммітів: Англійська.
+
 ## План розробки програми
-1. Створити Maven проект в Eclipse;
-1. Реалізувати абстрактний клас Item, інтерфейс IManageable;
-1. Реалізувати класи Book, DVD, а також Patron;
-1. Реалізувати клас Library, з використанням всіх створених класів в попередньому кроці;
-1. Зробити приклад використання системи в класі App;
-1. Створити репозиторій на GitHub;
-1. Завантажити першу версію програми на репозиторій;
+1. Створити Maven проект в Eclipse.
+1. Реалізувати абстрактний клас Item, інтерфейс IManageable.
+1. Реалізувати класи Book, DVD, а також Patron.
+1. Реалізувати клас Library, з використанням всіх створених класів в попередньому кроці.
+1. Зробити приклад використання системи в класі App.
+1. Створити репозиторій на GitHub.
+1. Завантажити першу версію програми на репозиторій.
 1. Зробити тестові класи TestBook, TestDVD, TestPatron, TestLibrary.
-## [Тести класу TestBook](src/test/java/com/solodkyi/java_labs/Lab2Test/TestBook)
+
+##Тести
+### [Тести класу TestBook](src/test/java/com/solodkyi/java_labs/Lab2Test/TestBook)
 - **testBookIsEqual** - перевірка порівняння однакових книг;
 - **testBookIsUnequal** - перевірка порівняння не однакових книг.
-## [Тести класу TestDVD](src/test/java/com/solodkyi/java_labs/Lab2Test/TestDVD)
+
+### [Тести класу TestDVD](src/test/java/com/solodkyi/java_labs/Lab2Test/TestDVD)
 - **testDVDIsEqual** - перевірка порівняння однакових DVD;
-- **testDVDIsUnequal** - перевірка порівнняня не однакових DVD;
+- **testDVDIsUnequal** - перевірка порівнняня не однакових DVD.
+
 - **testIncorrectDuration** - перевірка видання помилки у разі хибної тривалості DVD.
-## [Тести класу TestPatron](src/test/java/com/solodkyi/java_labs/Lab2Test/TestPatron)
+### [Тести класу TestPatron](src/test/java/com/solodkyi/java_labs/Lab2Test/TestPatron)
 - **PatronIsEqual** - перевірка порівняння однакових клієнтів;
 - **PatronIsUnEqual** - перевірка порівняння не однакових клієнтів.
-## [Тести класу TestLibrary](src/test/java/com/solodkyi/java_labs/Lab2Test/TestLibrary)
+
+### [Тести класу TestLibrary](src/test/java/com/solodkyi/java_labs/Lab2Test/TestLibrary)
 - **testAvaibleList** - перевірка правильності списку доступних предметів;
 - **testBorrowedList** - перевірка правильності списку заборгованих предметів;
 - **testAddItem** - перевірка додавання нових предметів у бібліотеку;

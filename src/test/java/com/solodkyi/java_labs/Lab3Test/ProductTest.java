@@ -11,17 +11,20 @@ public class ProductTest {
 
     @BeforeEach
     void setUp() {
-        product = new Product("testId1", "testProd0", 111.11);
+        product = new Product("testId1", "testProd0", 12.3);
     }
     @Test
     void productWithIllegalName() {
-        assertThrows(IllegalArgumentException.class, () -> new Product("testId1", "", 111.11));
+        assertThrows(IllegalArgumentException.class, () -> new Product("testId1", "", 2.2));
     }
     @Test
     void productWithIllegalPrice() {
         assertThrows(IllegalArgumentException.class, () -> new Product("testId1", "testProduct0", 0));
-        assertThrows(IllegalArgumentException.class, () -> new Product("testId2", "testProduct0", -5));
+        assertThrows(IllegalArgumentException.class, () -> new Product("testId2", "testProduct0", -1));
+    }
+    @Test
+    void setProductWithIllegalPrice() {
         assertThrows(IllegalArgumentException.class, () -> product.setPrice(0));
-        assertThrows(IllegalArgumentException.class, () -> product.setPrice(-5));
+        assertThrows(IllegalArgumentException.class, () -> product.setPrice(-10));
     }
 }

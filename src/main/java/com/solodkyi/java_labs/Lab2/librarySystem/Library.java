@@ -1,4 +1,4 @@
-package com.solodkyi.JavaLab2.LibrarySystem;
+package com.solodkyi.java_labs.Lab2.librarySystem;
 
 import java.util.ArrayList;
 

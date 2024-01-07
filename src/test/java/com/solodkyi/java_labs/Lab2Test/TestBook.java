@@ -3,7 +3,7 @@ package com.solodkyi.java_labs.Lab2Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.solodkyi.JavaLab2.LibrarySystem.Book;
+import com.solodkyi.java_labs.Lab2.librarySystem.Book;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TestBook 

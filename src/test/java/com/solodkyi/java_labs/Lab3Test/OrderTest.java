@@ -33,7 +33,7 @@ public class OrderTest {
     }
 
     @Test
-    public void testCreateOrderWithCart() {
+    public void testCreateOrder() {
         Order order = new Order(1, cart);
         assertEquals(1, order.getOrderId());
         assertEquals(OrderStatus.CREATED, order.getStatus());
@@ -77,7 +77,7 @@ public class OrderTest {
     }
 
     @Test
-    public void testSetProdsOnProcessedOrder() {
+    public void testSetProductsOnProcessedOrder() {
         Order order = new Order(1, cart);
 
         order.PlaceOrder();
