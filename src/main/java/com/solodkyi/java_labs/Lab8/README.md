@@ -1,4 +1,4 @@
-﻿# [Лабораторна робота 7](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/README.md)
+﻿# [Лабораторна робота 8](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/README.md)
 
 Зробив Солодкий Ярослав Тарасович з групи ПД-32
 
