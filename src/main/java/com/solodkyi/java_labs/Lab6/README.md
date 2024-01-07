@@ -1,4 +1,4 @@
-﻿# [Лабораторна робота 6](README.md)
+﻿# [Лабораторна робота 6](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/README.md)
 
 Зробив Солодкий Ярослав Тарасович з групи ПД-32
 
@@ -36,7 +36,8 @@
 1. Залити лабораторну роботу на репозиторій на гітхабі.
 
 ## Тести
-### [CinemaTest.java](src/test/java/com/solodkyi/java_labs/Lab6Test/CinemaTest.java)
+
+### [CinemaTest.java](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab6Test/CinemaTest.java)
 	* testCinemaSeatsInit - тест ініціалізації масиву кінотеатру;
 	* testBookSeats - тест бронювання місць;
 	* testBookBookingSeats - бронювання вже заброньованих місць;

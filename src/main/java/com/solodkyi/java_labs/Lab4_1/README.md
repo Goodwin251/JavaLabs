@@ -1,4 +1,4 @@
-﻿# [Лабораторна робота 4_1](README.md)
+﻿# [Лабораторна робота 4_1](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/README.md)
 
 Зробив Солодкий Ярослав Тарасович з групи ПД-32
 
@@ -22,6 +22,7 @@
 1. Залити лабораторну роботу на репозиторій на гітхабі.
 
 ## Тести
-### [IsPalindromeTest.java](src/test/java/com/solodkyi/java_labs/Lab4_1Test/IsPalindromeTest.java)
+
+### [IsPalindromeTest.java](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab4_1Test/IsPalindromeTest.java)
 	* testPalindromes - метод перевіряє паліндроми;
 	* testIsNotPalindromes - метод перевіряє не палідроми.	

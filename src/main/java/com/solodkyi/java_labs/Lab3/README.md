@@ -1,4 +1,4 @@
-﻿# [Лабораторна робота 3](README.md)
+﻿# [Лабораторна робота 3](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/README.md)
 
 Зробив Солодкий Ярослав Тарасович з групи ПД-32
 
@@ -61,11 +61,13 @@
 1. Залити лабораторну роботу на репозиторій на гітхабі.
 
 ## Тести
-### [CartTest.java](src/test/java/com/solodkyi/java_labs/Lab3Test/CartTest.java)
+
+### [CartTest.java](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab3Test/CartTest.java)
 	* testAddItems - перевіряє додавання передметів у кошик;
 	* testDelExistingItem - перевіряє видалення предметів з кошика;
 	* testDelNonExistingItem - перевіряє видалення не існуючого предмету з кошика.
-### [OrderTest.java](src/test/java/com/solodkyi/java_labs/Lab3Test/OrderTest.java)
+	
+### [OrderTest.java](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab3Test/OrderTest.java)
 	* testGetOrderStatus - перевіряє правильність зміни стану замовлення;
 	* testCreateOrder - перевіряє правильність створення замовлення;
 	* testPlaceOrder - перевіряє призначення замовленню статусу очікування;
@@ -74,11 +76,13 @@
 	* testProcessOrder - призначення замовленню статусу оброблення;
 	* testProcessNonPlacedOrder - призначення обробки замовленню, що ще не в статусу очікування;
 	* testSetProductsOnProcessedOrder - додавання нових товарів в замовлення, що вже обробляється.
-### [ProductTest.java](src/test/java/com/solodkyi/java_labs/Lab3Test/ProductTest.java)
+	
+### [ProductTest.java](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab3Test/ProductTest.java)
 	* productWithIllegalName - створення товару з неправильним іменем;
 	* productWithIllegalPrice - створення продуктів з неможливими цінами;
 	* setProductWithIllegalPrice - встановлення продукту неможливої ціни.
-### [ProgramTest.java](src/test/java/com/solodkyi/java_labs/Lab3Test/ProgramTest.java)
+	
+### [ProgramTest.java](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab3Test/ProgramTest.java)
 	* testAddProductToCart - додавання продукту до кошику;
 	* testRemoveProductFromCart - видалення продукту з кошику;
 	* testPlaceOrder - створення замовлення при мокані cart і зміни .getProducts() з when().thenReturn();

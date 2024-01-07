@@ -1,4 +1,4 @@
-﻿# [Лабораторна робота №1](README.md)
+﻿# [Лабораторна робота №1](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/README.md)
 
 Зробив Солодкий Ярослав Тарасович з групи ПД-32
 
@@ -18,28 +18,29 @@
 
 ## План розробки
 
-1. Визначити Enviroment Variables JAVA_HOME, PATH для JDK
-1. Встановити Maven Apache на систему
-1. Встановити доповнення Eclipse для роботи з Maven
-1. Створити Maven Project, встановити пакети JUNIT 5
-1. Написати програму відповідно до вимог лабораторної роботи
-1. Написати тести для програми 
-1. Побудувати проект за допомогою Maven для впевненості що всі юніттести працюють правильно
-1. Загрузити файли програми на репозиторій
+1. Визначити Enviroment Variables JAVA_HOME, PATH для JDK.
+1. Встановити Maven Apache на систему.
+1. Встановити доповнення Eclipse для роботи з Maven.
+1. Створити Maven Project, встановити пакети JUNIT 5.
+1. Написати програму відповідно до вимог лабораторної роботи.
+1. Написати тести для програми .
+1. Побудувати проект за допомогою Maven для впевненості що всі юніттести працюють правильно.
+1. Загрузити файли програми на репозиторій.
 1. Оформити документи лабораторної.
 
-##Тести
-### [Тести класу BookTest](src/test/java/com/solodkyi/java_labs/Lab1Test/BookTest.java)
-- **testName** - перевірка отримання назви книги;
-- **testAuthorName** - перевірка отримання ім'я автора книги;
-- **testISBN** - перевірка отримання коду ISBN;
-- **testYear** - перевірка отримання року видання книги;
-- **TestExceptionThrow** - перевірка викидання помилки при неправильному введеному році;
+## Тести
 
-### [Тести класу LibraryTest](src/test/java/com/solodkyi/java_labs/Lab1Test/LibraryTest.java)
-- **testAddToArray** - перевірка додавання книги до колекції бібліотеки;
-- **testDeleteExistByISBN** - перервірка видалення книги за існуючим у списку ISBN;
-- **testDeleteNotExistByISBN** - перевірка видалення книги якщо вказаний ISBN відсутній у бібліотеці;
-- **testSearchByCorrectName** - перевірка пошуку книги по назві яка є в бібліотеці;
-- **testSearchByInCorrectName** - перевірка пошуку книги по назві якої немає в бібліотеці;
-- **testEmptyLibrary** - перевірка пошуку та видалення книг у повністю пустій бібліотеці;
+### [Тести класу BookTest](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab1Test/BookTest.java)
+	* testName - перевірка отримання назви книги;
+	* testAuthorName - перевірка отримання ім'я автора книги;
+	* testISBN - перевірка отримання коду ISBN;
+	* testYear - перевірка отримання року видання книги;
+	* TestExceptionThrow - перевірка викидання помилки при неправильному введеному році;
+
+### [Тести класу LibraryTest](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab1Test/LibraryTest.java)
+	* testAddToArray - перевірка додавання книги до колекції бібліотеки;
+	* testDeleteExistByISBN - перервірка видалення книги за існуючим у списку ISBN;
+	* testDeleteNotExistByISBN - перевірка видалення книги якщо вказаний ISBN відсутній у бібліотеці;
+	* testSearchByCorrectName - перевірка пошуку книги по назві яка є в бібліотеці;
+ 	* testSearchByInCorrectName - перевірка пошуку книги по назві якої немає в бібліотеці;
+	* testEmptyLibrary - перевірка пошуку та видалення книг у повністю пустій бібліотеці.

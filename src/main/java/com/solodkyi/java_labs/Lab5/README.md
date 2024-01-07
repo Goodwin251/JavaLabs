@@ -1,4 +1,4 @@
-﻿# [Лабораторна робота 5](README.md)
+﻿# [Лабораторна робота 5](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/README.md)
 
 Зробив Солодкий Ярослав Тарасович з групи ПД-32
 
@@ -37,13 +37,14 @@
 1. Залити лабораторну роботу на репозиторій на гітхабі.
 
 ## Тести
-### [BankAccountTest.java](src/test/java/com/solodkyi/java_labs/Lab5Test/BankAccountTest.java)
+
+### [BankAccountTest.java](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab5Test/BankAccountTest.java)
 	* testDeposit - тест поповнення рахунку;
 	* testWithdraw - тест зняття коштів;
 	* testNegativeAmountExceptionOnDeposit - поповнення негативною сумою;
 	* testInsufficientFundsExceptionOnWithdraw - недостатньо коштів на рахунку для зняття суми;
 	* testNegativeAmountExceptionOnWithdraw - зняття негативної суми.
-### [BankTest.java](src/test/java/com/solodkyi/java_labs/Lab5Test/BankTest.java)
+### [BankTest.java](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab5Test/BankTest.java)
 	* testCreateAccount - тест створення акаунту;
 	* testFindAccount - тест пошуку акаунту;
 	* testTransferMoney - тест переведення на інший акаунт;

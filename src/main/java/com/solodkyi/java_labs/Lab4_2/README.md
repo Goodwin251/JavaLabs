@@ -1,4 +1,4 @@
-﻿# [Лабораторна робота 4_2 (важко)](README.md)
+﻿# [Лабораторна робота 4_2 (важко)](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/README.md)
 
 Зробив Солодкий Ярослав Тарасович з групи ПД-32
 
@@ -44,7 +44,8 @@
 1. Залити лабораторну роботу на репозиторій на гітхабі.
 
 ## Тести
-### [DecoderTest.java](src/test/java/com/solodkyi/java_labs/Lab4_2Test/DecoderTest.java)
+
+### [DecoderTest.java](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab4_2Test/DecoderTest.java)
 	* testEncodingByVowels - кодування голосним шифром;
 	* testEncodingByConsonants - кодування приголосним шифром;
 	* testDecodingByVowels - розкодування голосним шифром;

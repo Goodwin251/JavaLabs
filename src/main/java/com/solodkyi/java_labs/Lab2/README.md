@@ -1,6 +1,6 @@
-﻿# [Лабораторна робота 2](README.md)
+﻿# [Лабораторна робота 2](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/README.md)
 
-Зробив Солодкий Ярослав ПД-32
+Зробив Солодкий Ярослав ПД* 32
 
 ## Вимоги до функціоналу
 Удосконалена система керування бібліотекою, має збергіати книги, DVD та зареєстрованих клієнтів. 
@@ -30,35 +30,36 @@
 1. Завантажити першу версію програми на репозиторій.
 1. Зробити тестові класи TestBook, TestDVD, TestPatron, TestLibrary.
 
-##Тести
-### [Тести класу TestBook](src/test/java/com/solodkyi/java_labs/Lab2Test/TestBook)
-- **testBookIsEqual** - перевірка порівняння однакових книг;
-- **testBookIsUnequal** - перевірка порівняння не однакових книг.
+## Тести
 
-### [Тести класу TestDVD](src/test/java/com/solodkyi/java_labs/Lab2Test/TestDVD)
-- **testDVDIsEqual** - перевірка порівняння однакових DVD;
-- **testDVDIsUnequal** - перевірка порівнняня не однакових DVD.
+### [Тести класу TestBook](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab2Test/TestBook.java)
+	*  testBookIsEqual *  перевірка порівняння однакових книг;
+	*  testBookIsUnequal *  перевірка порівняння не однакових книг.
 
-- **testIncorrectDuration** - перевірка видання помилки у разі хибної тривалості DVD.
-### [Тести класу TestPatron](src/test/java/com/solodkyi/java_labs/Lab2Test/TestPatron)
-- **PatronIsEqual** - перевірка порівняння однакових клієнтів;
-- **PatronIsUnEqual** - перевірка порівняння не однакових клієнтів.
+### [Тести класу TestDVD](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab2Test/TestDVD.java)
+	*  testDVDIsEqual *  перевірка порівняння однакових DVD;
+	*  testDVDIsUnequal *  перевірка порівнняня не однакових DVD.
+	*  testIncorrectDuration *  перевірка видання помилки у разі хибної тривалості DVD.
 
-### [Тести класу TestLibrary](src/test/java/com/solodkyi/java_labs/Lab2Test/TestLibrary)
-- **testAvaibleList** - перевірка правильності списку доступних предметів;
-- **testBorrowedList** - перевірка правильності списку заборгованих предметів;
-- **testAddItem** - перевірка додавання нових предметів у бібліотеку;
-- **testAddItemWithSameID** - перевірка додавання предмету з існуючим ідентифікатором;
-- **testAddBorrowedItem** - перевірка додвання запозиченого предмету;
-- **testRemoveItem** - первірка видалення передмету з бібліотеки;
-- **testRemoveNotExistedItem** - перевірка видалення не існуючого в бібліотеці предмету;
-- **testRegisterPatron** - перевірка регістрації клієнтів в бібліотекі;
-- **testRegisterPatronWithBorrowedItems** - перевірка регістрації клієнта з запозиченими предметами;
-- **testRegisterPatronWithSameID** - перевірка регістрації клієнта з існуючим ідентифікатором;
-- **testLendItem** - перевірка запозичення предмету бібліотеки зареєстрованим клієнтом;
-- **testLendBorrowedItem** - перевірка запозичення вже запозиченого предмету зареєстрованим клієнтом;
-- **testLendToUnRegistredPatron** - перевірка запозичення предмету бібліотеки незареєстрованим клієнтом;
-- **testLendUnRegisteredItem** - перевірка запозичення не існуючого в бібліотеці предмету зареєстрованим клієнтом;
-- **testReturnItem** - перевірка повернення предмету зареєстрованим клієнтом;
-- **testReturnAvaibleItem** - перевірка повернення вільного предмету зареєстрованим клієнтом;
-- **testReturnBorrowedItemFromWrongPatron** - перевірка повернення заборгованого предмету клієнтом, що не брав його.
+### [Тести класу TestPatron](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab2Test/TestPatron.java)
+	*  PatronIsEqual *  перевірка порівняння однакових клієнтів;
+	*  PatronIsUnEqual *  перевірка порівняння не однакових клієнтів.
+
+### [Тести класу TestLibrary](https://github.com/Goodwin251/solodkyi_java_labs/blob/main/src/test/java/com/solodkyi/java_labs/Lab2Test/TestLibrary.java)
+	*  testAvaibleList *  перевірка правильності списку доступних предметів;
+	*  testBorrowedList *  перевірка правильності списку заборгованих предметів;
+	*  testAddItem *  перевірка додавання нових предметів у бібліотеку;
+	*  testAddItemWithSameID *  перевірка додавання предмету з існуючим ідентифікатором;
+	*  testAddBorrowedItem *  перевірка додвання запозиченого предмету;
+	*  testRemoveItem *  первірка видалення передмету з бібліотеки;
+	*  testRemoveNotExistedItem *  перевірка видалення не існуючого в бібліотеці предмету;
+	*  testRegisterPatron *  перевірка регістрації клієнтів в бібліотекі;
+	*  testRegisterPatronWithBorrowedItems *  перевірка регістрації клієнта з запозиченими предметами;
+	*  testRegisterPatronWithSameID *  перевірка регістрації клієнта з існуючим ідентифікатором;
+	*  testLendItem *  перевірка запозичення предмету бібліотеки зареєстрованим клієнтом;
+	*  testLendBorrowedItem *  перевірка запозичення вже запозиченого предмету зареєстрованим клієнтом;
+	*  testLendToUnRegistredPatron *  перевірка запозичення предмету бібліотеки незареєстрованим клієнтом;
+	*  testLendUnRegisteredItem *  перевірка запозичення не існуючого в бібліотеці предмету зареєстрованим клієнтом;
+	*  testReturnItem *  перевірка повернення предмету зареєстрованим клієнтом;
+	*  testReturnAvaibleItem *  перевірка повернення вільного предмету зареєстрованим клієнтом;
+	*  testReturnBorrowedItemFromWrongPatron *  перевірка повернення заборгованого предмету клієнтом, що не брав його.
